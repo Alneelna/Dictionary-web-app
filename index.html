@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary Web App</title>
+</head>
+<body>
+    <audio id="sound"></audio>
+    <div class="container">
+        <label for="font-select">Font:</label>
+        <select id="font-select">
+            <option value="Poppins">Poppins</option>
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
+
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+        <div class="searchbox">
+            <input type="text" placeholder="Type the word here..." id="inp-word"/>
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="result">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
