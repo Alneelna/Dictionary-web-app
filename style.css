@@ -9,10 +9,10 @@
 
 /* Light Theme (Default) */
 :root {
-    --bg-color: #f944ff;
+    --bg-color: #b202b8;
     --text-color: #1f194c;
     --container-bg: #ffffff;
-    --button-bg: #f944ff;
+    --button-bg: #b202b8;
     --border-color: #f944ff;
     --example-border: #f944ff;
     --switch-bg: #f944ff;
@@ -24,7 +24,7 @@
     --bg-color: #121212;
     --text-color: #f5f5f5;
     --container-bg: #1e1e1e;
-    --button-bg: #f944ff;
+    --button-bg: #b202b8;
     --border-color: #f944ff;
     --example-border: #f944ff;
     --switch-bg: #f944ff;
@@ -62,7 +62,7 @@ body {
     background-color: transparent;
     color: var(--text-color);
 }
-.seaechbox input:hover{
+.seaechbox button:hover{
     color: #972c9b;
 }
 .searchbox button {
